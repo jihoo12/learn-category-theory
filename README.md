@@ -66,12 +66,19 @@ For these to qualify as a monoid, they must satisfy two "rules" (axioms) represe
 AssociativityThis ensures that if you combine three things, the grouping doesn't matter.
 <br>
 $$(M \otimes M) \otimes M \xrightarrow{\mu \otimes 1_M} M \otimes M \xrightarrow{\mu} M$$
+<br>
 must equal
+<br>
 $$M \otimes (M \otimes M) \xrightarrow{1_M \otimes \mu} M \otimes M \xrightarrow{\mu} M$$
+<br>
 UnitalityThis ensures that the unit $\eta$ actually acts like an identity element.
+<br>
 $$I \otimes M \xrightarrow{\eta \otimes 1_M} M \otimes M \xrightarrow{\mu} M$$
+<br>
 and
+<br>
 $$M \otimes I \xrightarrow{1_M \otimes \eta} M \otimes M \xrightarrow{\mu} M$$
+<br>
 must both be equal to the identity morphism $1_M$.
 
 ## natural transformation
