@@ -72,3 +72,16 @@ $$I \otimes M \xrightarrow{\eta \otimes 1_M} M \otimes M \xrightarrow{\mu} M$$
 and
 $$M \otimes I \xrightarrow{1_M \otimes \eta} M \otimes M \xrightarrow{\mu} M$$
 must both be equal to the identity morphism $1_M$.
+
+## natural transformation
+relationship between functors
+assume there are two categories C,D and there are two functors $F,G : C \to D$
+natural transformation $alpha$ is a way to transform functor F to G
+at this time for $X \in C$, $F(X)\xrightarrow{\alpha x}G(X)$ must exist in D and that arrows must preserve structure
+for natural transformation it must satisifies that
+for $(f: X \to Y) \in C$,for category D that must satisfies that
+$$\alpha_Y \circ F(f) = G(f) \circ \alpha_X$$
+| $F(X)$ | $\xrightarrow{\alpha_X}$ | $G(X)$ |
+| --- | --- | --- |
+| $\downarrow F(f)$ |  | $\downarrow G(f)$ |
+| $F(Y)$ | $\xrightarrow{\alpha_Y}$ | $G(Y)$ |
