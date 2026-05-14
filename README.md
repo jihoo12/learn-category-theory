@@ -64,6 +64,7 @@ A monoid in ($(C, \otimes, I)$) consists of:
 
 For these to qualify as a monoid, they must satisfy two "rules" (axioms) represented by commuting diagrams:  
 AssociativityThis ensures that if you combine three things, the grouping doesn't matter.
+<br>
 $$(M \otimes M) \otimes M \xrightarrow{\mu \otimes 1_M} M \otimes M \xrightarrow{\mu} M$$
 must equal
 $$M \otimes (M \otimes M) \xrightarrow{1_M \otimes \mu} M \otimes M \xrightarrow{\mu} M$$
