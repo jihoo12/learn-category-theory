@@ -86,7 +86,7 @@ relationship between functors
 <br>
 assume there are two categories C,D and there are two functors $F,G : C \to D$
 <br>
-natural transformation $alpha$ is a way to transform functor F to G
+natural transformation $\alpha$ is a way to transform functor F to G
 <br>
 at this time for $X \in C$, $F(X)\xrightarrow{\alpha x}G(X)$ must exist in D and that arrows must preserve structure
 <br>
