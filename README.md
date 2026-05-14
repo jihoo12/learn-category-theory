@@ -83,11 +83,17 @@ must both be equal to the identity morphism $1_M$.
 
 ## natural transformation
 relationship between functors
+<br>
 assume there are two categories C,D and there are two functors $F,G : C \to D$
+<br>
 natural transformation $alpha$ is a way to transform functor F to G
+<br>
 at this time for $X \in C$, $F(X)\xrightarrow{\alpha x}G(X)$ must exist in D and that arrows must preserve structure
+<br>
 for natural transformation it must satisifies that
+<br>
 for $(f: X \to Y) \in C$,for category D that must satisfies that
+<br>
 $$\alpha_Y \circ F(f) = G(f) \circ \alpha_X$$
 | $F(X)$ | $\xrightarrow{\alpha_X}$ | $G(X)$ |
 | --- | --- | --- |
